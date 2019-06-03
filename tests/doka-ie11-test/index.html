@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Doka IE11 Test</title>
+  <script src="require.js"></script>
+  <script type="text/javascript">
+  require.config({
+    paths: {
+      'doka': 'doka/doka.min',
+    }
+  });
+  require(['main']);
+</script>
+</head>
+<body>
+
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p style="text-align: center">
+    Open in IE11, open Console, refresh page. `Doka.create` returning undefined.
+  </p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+
+</body>
+</html>
